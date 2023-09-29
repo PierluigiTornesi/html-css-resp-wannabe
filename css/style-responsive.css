@@ -1,0 +1,25 @@
+/* DESKTOP FIRST */
+@media screen  and (max-width: 768px){
+    .container, .steps, .lessons, .why-us{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container, .steps, .lessons, .why-us{
+        width: 100%;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .lessons .col{
+        width: 100%;
+    }
+    .steps .col{
+        width: 100%;
+    }
+    .why-us .col{
+        width: 100%;
+    }
+
+}
