@@ -6,9 +6,9 @@
 }
 
 @media screen and (max-width: 480px) {
-    .container, .steps, .lessons, .why-us{
+    /* .container, .steps, .lessons, .why-us{
         width: 100%;
-    }
+    } */
     .row{
         flex-wrap: wrap;
     }
@@ -22,4 +22,10 @@
         width: 100%;
     }
 
+}
+
+@media screen and (max-width: 1160px) {
+    .container, .steps, .lessons, .why-us{
+        width: 100%;
+    }
 }
